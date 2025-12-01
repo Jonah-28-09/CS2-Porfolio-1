@@ -6,6 +6,7 @@ html {
 
 .container_main{
 display: flex;
+flex-direction: row;
 justify-content: flex-end;
 }
 
@@ -65,4 +66,29 @@ h3{
 
 .contact{
     margin-bottom: 50%;
+}
+
+.nav_flex{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    background-color: grey;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 6.5rem;
+    align-content: space-between;
+}
+
+.button{
+  text-align: center;
+  width: 100px;
+  height: 20px;
+  background-color: rgb(196, 196, 196);
+  border-radius: 10px 10px;
+  padding: 2px 20px;
+  margin: 4px;
 }
