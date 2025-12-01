@@ -1,0 +1,16 @@
+html {
+  font-size: 112.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body{
+background: #BEB25C;
+background: linear-gradient(0deg, #BEB25C, #B6F2AB);
+}
+
+h1 {font-size: 5.61rem;}
+
+h2 {font-size: 4.209rem;}
+
+h3 {font-size: 3.157rem;}
