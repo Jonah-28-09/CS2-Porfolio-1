@@ -4,13 +4,47 @@ html {
   height: 100%;
 }
 
+h1, h2, h3, h4, h5, h6{
+    text-align: center;
+}
+
 body{
 background: #BEB25C;
 background: linear-gradient(0deg, #BEB25C, #B6F2AB);
+background-attachment: fixed;
 }
 
-h1 {font-size: 5.61rem;}
+h1{
+    font-size: 5.61rem;
+    margin: 2rem;
+}
 
-h2 {font-size: 4.209rem;}
+h2{
+    font-size: 4.209rem;
+    margin: 2rem;
+}
 
-h3 {font-size: 3.157rem;}
+h3{
+    font-size: 3.157rem;
+    margin: 2rem;
+}
+
+.name{
+    margin-bottom: 50%;
+}
+
+.about{
+    margin-bottom: 50%;
+}
+
+.experience{
+    margin-bottom: 50%;
+}
+
+.projects{
+    margin-bottom: 50%;
+}
+
+.contact{
+    margin-bottom: 50%;
+}
