@@ -70,7 +70,8 @@ h3{
 
 
 nav{
-    background-color: grey;
+    background: #383838;
+    background: linear-gradient(0deg, #383838, #808080);;
     position: fixed;
     left: 0px;
     top: 0px;
@@ -81,7 +82,7 @@ nav{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0.4rem 0rem 2rem 0.1rem rgb(59, 59, 59);
+
 
 }
 
@@ -101,7 +102,7 @@ nav{
 
 .button:hover{
     background-color: rgb(148, 147, 147);
-    box-shadow: 0.2rem 0.1rem 0.3rem 0.1rem rgb(59, 59, 59);
+    box-shadow: 0.2rem 0.1rem 0.3rem 0.1rem rgb(49, 49, 49);
     transition: 0.05s;
     transform: scale(0.993)
 }
