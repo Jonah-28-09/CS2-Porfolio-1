@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p{
-    font-family: "Merriweather", serif;
+  font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
@@ -115,6 +115,7 @@ nav{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  border: 3px solid rgb(99, 99, 99);
 }
 
 .button:hover{
@@ -124,6 +125,21 @@ nav{
     transform: scale(0.993)
 }
 
-.text_format{
-    margin-left: 50%;
+.text_right{
+    margin-left: 56%;
+    margin-right: 1rem;
+}
+
+.text_left{
+    margin-right: 46.5%;
+    margin-left: 10rem;
+}
+
+.seperate{
+    background-color: black;
+    height: 100%;
+    width: 0.2rem;
+    position: fixed;
+    left: 54.5%;
+    top: 0;
 }
