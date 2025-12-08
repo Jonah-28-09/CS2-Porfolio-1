@@ -110,8 +110,16 @@ li{
     padding-bottom: 40px;
 }
 
+.top_space_large{
+    padding-top: 3.25rem;
+}
+
+.top_space_small{
+    padding-top: 1.25rem;
+}
+
 .top_space{
-    padding-top: 3rem;
+    padding-top: 2.5rem;
 }
 
 .button{
