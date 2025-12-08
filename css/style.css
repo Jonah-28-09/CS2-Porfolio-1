@@ -96,6 +96,24 @@ nav{
     align-items: center;
 }
 
+ul{
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+
+    padding-top: 60px;
+}
+
+li{
+    padding-bottom: 40px;
+}
+
+.top_space{
+    padding-top: 3rem;
+}
+
 .button{
   text-align: center;
   width: 100px;
