@@ -4,6 +4,12 @@ html {
   height: 100%;
 }
 
+body{
+background: #BEB25C;
+background: linear-gradient(0deg, #BEB25C, #B6F2AB);
+background-attachment: fixed;
+}
+
 .container_main{
 box-sizing: border-box;
 display: flex;
@@ -32,11 +38,7 @@ p{
     width: 100%;
 }
 
-body{
-background: #BEB25C;
-background: linear-gradient(0deg, #BEB25C, #B6F2AB);
-background-attachment: fixed;
-}
+
 
 hr {
   border: 1px;
