@@ -64,15 +64,15 @@ h3{
 }
 
 .name{
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .about{
-    margin-bottom: 20%;
+    margin-bottom: 5%;
 }
 
 .experience{
-    margin-bottom: 50%;
+    margin-bottom: 10%;
 }
 
 .projects{
@@ -123,6 +123,10 @@ li{
 
 .top_space{
     padding-top: 2.5rem;
+}
+
+.much_space{
+    margin-top: 9rem;
 }
 
 .button{
@@ -176,7 +180,7 @@ li{
     border: 2px solid black;
     position: absolute;
     right: 3rem;
-    top: 1475px;
+    top: 1275px;
     box-shadow: -0.3rem 0.3rem 0.7rem 0.2rem rgb(29, 29, 29);
 }
 
@@ -192,10 +196,14 @@ li{
     border-radius: 15px 15px;
     border: 2px solid black;
     position: absolute;
-    top: 2600px;
+    top: 2150px;
     box-shadow: 0.3rem 0.3rem 0.7rem 0.2rem rgb(29, 29, 29);
 }
 
-.much_space{
-    margin-top: 12rem;
+.rugby{
+    border-radius: 15px 15px;
+    border: 2px solid black;
+    position: absolute;
+    top: 2800px;
+    box-shadow: 0.3rem 0.3rem 0.7rem 0.2rem rgb(29, 29, 29);
 }
