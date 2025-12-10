@@ -79,10 +79,6 @@ h3{
     margin-bottom: 20%;
 }
 
-.contact{
-    margin-bottom: 50%;
-}
-
 
 nav{
     background: #383838;
@@ -215,4 +211,35 @@ li{
     position: absolute;
     top: 2800px;
     box-shadow: 0.3rem 0.3rem 0.7rem 0.2rem rgb(29, 29, 29);
+}
+
+.email_link {
+
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  display: inline-block;
+  text-align: center;
+  width: 125px;
+  height: 20px;
+  background-color: #e8d896;
+  border-radius: 25px 25px;
+  padding: 20px 20px 20px;
+  margin: 4px;
+  transition: 0.1s;
+}
+
+.email_link:hover {
+  background-color: #b19a3e;
+  box-shadow: 0.5rem 0.2rem 0.6rem 0.2rem #5e511f;
+  transform: scale(0.95);
+  transition: 0.2s;
+}
+
+.email_text{
+    text-decoration: none;
+    color: black;
+    padding-left: 9px;
+    
 }
