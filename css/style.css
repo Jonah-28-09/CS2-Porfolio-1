@@ -76,7 +76,7 @@ h3{
 }
 
 .projects{
-    margin-bottom: 50%;
+    margin-bottom: 20%;
 }
 
 .contact{
@@ -181,6 +181,15 @@ li{
     position: absolute;
     right: 3rem;
     top: 1275px;
+    box-shadow: -0.3rem 0.3rem 0.7rem 0.2rem rgb(29, 29, 29);
+}
+
+.band_img{
+    border-radius: 15px 15px;
+    border: 2px solid black;
+    position: absolute;
+    right: 3rem;
+    top: 3775px;
     box-shadow: -0.3rem 0.3rem 0.7rem 0.2rem rgb(29, 29, 29);
 }
 
