@@ -5,8 +5,8 @@ html {
 }
 
 body{
-background: #BEB25C;
-background: linear-gradient(0deg, #BEB25C, #B6F2AB);
+background: #2083CF;
+background: radial-gradient(at center, #2083CF, #887EE9);
 background-attachment: fixed;
 }
 
@@ -81,8 +81,8 @@ h3{
 
 
 nav{
-    background: #383838;
-    background: linear-gradient(0deg, #383838, #808080);;
+background: #C943D9;
+background: linear-gradient(0deg, #C943D9, #7446DF);
     position: fixed;
     left: 0px;
     top: 0px;
@@ -241,5 +241,5 @@ li{
     text-decoration: none;
     color: black;
     padding-left: 9px;
-    
+
 }
