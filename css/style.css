@@ -145,7 +145,8 @@ li{
 }
 
 .button:hover{
-    background-color: rgb(148, 147, 147);
+    background: #2083CF;
+    background: radial-gradient(at center, #2083CF, #887EE9);
     box-shadow: 0.2rem 0.1rem 0.3rem 0.1rem rgb(49, 49, 49);
     transition: 0.05s;
     transform: scale(0.99)
@@ -214,25 +215,23 @@ li{
 }
 
 .email_link {
-
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  border: 1px solid #12466d;
 
   display: inline-block;
   text-align: center;
   width: 125px;
   height: 20px;
-  background-color: #e8d896;
+  background-color: rgb(196, 196, 196);
   border-radius: 25px 25px;
-  padding: 20px 20px 20px;
+  padding: 15px 10px 20px;
   margin: 4px;
   transition: 0.1s;
 }
 
 .email_link:hover {
-  background-color: #b19a3e;
-  box-shadow: 0.5rem 0.2rem 0.6rem 0.2rem #5e511f;
+  background: #2083CF;
+  background: radial-gradient(at center, #2083CF, #887EE9);
+  box-shadow: 0.2rem 0.1rem 0.3rem 0.1rem rgb(49, 49, 49);
   transform: scale(0.95);
   transition: 0.2s;
 }
